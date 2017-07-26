@@ -14,6 +14,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/empty_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:text="@string/inventory_is_empty" />
 
     <View
         android:layout_width="match_parent"

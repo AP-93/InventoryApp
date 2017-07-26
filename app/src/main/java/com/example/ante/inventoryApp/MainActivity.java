@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         setContentView(R.layout.activity_main);
 
         ListView listViewItems = (ListView) findViewById(R.id.display_items_list);
+        listViewItems.setEmptyView(findViewById(R.id.empty_list_item));
 
         quantity = (TextView) findViewById(R.id.item_quantity);
 
