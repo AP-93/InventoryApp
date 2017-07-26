@@ -25,5 +25,5 @@
     <string name="sale">sale</string>
     <string name="dollar">\u0020$</string>
     <string name="in_stock">In Stock:\u0020</string>
-    <string name="inventory_is_empty">Inventory is empty</string>
+    <string name="inventory_is_empty">Inventory is empty \n Press button to add item</string>
 </resources>
